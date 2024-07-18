@@ -1,0 +1,4 @@
+# Dell DW5930e Snapdragon X55 WWAN Card
+ACTION=="add", SUBSYSTEM=="pci", ATTR{vendor}=="0x105b", ATTR{device}=="0xe0b0", ATTR{power/control}="on"
+
+ACTION=="add", SUBSYSTEM=="pci", ATTR{vendor}=="0x1bc7", ATTR{device}=="0x1201", ATTR{power/control}="on"
